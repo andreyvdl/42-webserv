@@ -48,12 +48,7 @@ limit 1024mB;
 
 - Multi value map ***error***, represent error code and error file.
 ```
-error 404=foo.html,500=bar.html;
-```
-
-- One value ***root***, represent the root for the error files.
-```
-root /tmp/foo/bar/;
+error 404=/foo/bar/foo.html,500=/foo/bar/bar.html;
 ```
 
 ## Route Block
